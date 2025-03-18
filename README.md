@@ -1,6 +1,6 @@
 # Embedding calculation using model registry to SPCS deployment
 
-This repo shows how to deployment an embedding model into SPCS using model registry. Also performs how to interact with the REST API in a single record format, as well as with locust using JWT authentication.
+This repo shows how to deploy `sentence-transformers/all-MiniLM-L6-v2`, an embedding model from Huggingface into Snowpark Container Services (SPCS) using Snowflake ML model registry. Also shows how to interact with the REST API in a single record format, as well as with locust performance testing tool using SPCS JWT authentication.
 
 Locust Test report overview:
 
