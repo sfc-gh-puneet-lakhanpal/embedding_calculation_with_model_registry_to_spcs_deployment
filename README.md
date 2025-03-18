@@ -1,4 +1,14 @@
-# GPU based model registry to spcs deployment for embedding calculation
+# Embedding calculation using model registry to SPCS deployment
+
+This repo shows how to deployment an embedding model into SPCS using model registry. Also performs how to interact with the REST API in a single record format, as well as with locust using JWT authentication.
+
+Locust Test report overview:
+
+![Embedding calculation](locust_test_report_overview.png?raw=true "Overview")
+
+Locust Test report chart:
+
+![Embedding calculation](locust_test_report_chart.png?raw=true "Overview")
 
 ### Snowflake notebook for deployment
 Bring in `Model Registry based model deployment to SPCS for GPU inferencing.ipynb` as a Snowflake notebook and attach it to container runtime notebook running on gpu_nv_s compute pool.
